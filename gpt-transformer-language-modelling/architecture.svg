@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 400" width="960" height="400" font-family="Helvetica, Arial, sans-serif">
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#555"/></marker></defs>
+<rect width="960" height="400" fill="#ffffff"/>
+<text x="480.0" y="30" text-anchor="middle" font-size="18" font-weight="bold" fill="#1F2937">GPT-style transformer: from text to next-token prediction</text>
+<polyline points="150.0,96.5 164.0,96.5 164.0,88.0 178.0,88.0" fill="none" stroke="#555" stroke-width="1.6" marker-end="url(#ar)"/>
+<polyline points="318.0,88.0 346.0,88.0" fill="none" stroke="#555" stroke-width="1.6" marker-end="url(#ar)"/>
+<polyline points="496.0,88.0 524.0,88.0" fill="none" stroke="#555" stroke-width="1.6" marker-end="url(#ar)"/>
+<polyline points="664.0,88.0 678.0,88.0 678.0,96.5 692.0,96.5" fill="none" stroke="#555" stroke-width="1.6" marker-end="url(#ar)"/>
+<polyline points="822.0,96.5 836.0,96.5 836.0,88.0 850.0,88.0" fill="none" stroke="#555" stroke-width="1.6" marker-end="url(#ar)"/>
+<polyline points="220.0,219.5 235.0,219.5 235.0,228.0 250.0,228.0" fill="none" stroke="#555" stroke-width="1.6" marker-end="url(#ar)"/>
+<polyline points="440.0,228.0 455.0,228.0 455.0,219.5 470.0,219.5" fill="none" stroke="#555" stroke-width="1.6" marker-end="url(#ar)"/>
+<polyline points="590.0,219.5 620.0,219.5" fill="none" stroke="#555" stroke-width="1.6" marker-end="url(#ar)"/>
+<polyline points="895.0,116.0 895.0,346.5 840.0,346.5" fill="none" stroke="#555" stroke-width="1.6" marker-end="url(#ar)"/>
+<rect x="20" y="60" width="130" height="73" rx="9" fill="#E8F0FE" stroke="#4C78C9" stroke-width="1.8"/>
+<text x="85.0" y="80" text-anchor="middle" font-size="13" font-weight="bold" fill="#1F2937">Training text</text>
+<text x="85.0" y="97" text-anchor="middle" font-size="13" fill="#1F2937">Shakespeare corpus</text>
+<text x="85.0" y="114" text-anchor="middle" font-size="13" fill="#1F2937">as token IDs</text>
+<rect x="178" y="60" width="140" height="56" rx="9" fill="#E3F4EF" stroke="#2E8B77" stroke-width="1.8"/>
+<text x="248.0" y="80" text-anchor="middle" font-size="13" font-weight="bold" fill="#1F2937">Embeddings</text>
+<text x="248.0" y="97" text-anchor="middle" font-size="13" fill="#1F2937">token + position</text>
+<rect x="346" y="60" width="150" height="56" rx="9" fill="#E3F4EF" stroke="#2E8B77" stroke-width="1.8"/>
+<text x="421.0" y="80" text-anchor="middle" font-size="13" font-weight="bold" fill="#1F2937">N × transformer block</text>
+<text x="421.0" y="97" text-anchor="middle" font-size="13" fill="#1F2937">pre-norm, residual</text>
+<rect x="524" y="60" width="140" height="56" rx="9" fill="#E3F4EF" stroke="#2E8B77" stroke-width="1.8"/>
+<text x="594.0" y="80" text-anchor="middle" font-size="13" font-weight="bold" fill="#1F2937">Final LayerNorm</text>
+<text x="594.0" y="97" text-anchor="middle" font-size="13" fill="#1F2937">+ linear layer</text>
+<rect x="692" y="60" width="130" height="73" rx="9" fill="#E3F4EF" stroke="#2E8B77" stroke-width="1.8"/>
+<text x="757.0" y="80" text-anchor="middle" font-size="13" font-weight="bold" fill="#1F2937">Logits over</text>
+<text x="757.0" y="97" text-anchor="middle" font-size="13" fill="#1F2937">vocabulary</text>
+<text x="757.0" y="114" text-anchor="middle" font-size="13" fill="#1F2937">(50,257 tokens)</text>
+<rect x="850" y="60" width="90" height="56" rx="9" fill="#FDF1DC" stroke="#C98A1B" stroke-width="1.8"/>
+<text x="895.0" y="80" text-anchor="middle" font-size="13" font-weight="bold" fill="#1F2937">Next-token</text>
+<text x="895.0" y="97" text-anchor="middle" font-size="13" fill="#1F2937">probability</text>
+<rect x="100" y="200" width="120" height="39" rx="9" fill="#F1F3F4" stroke="#7A8791" stroke-width="1.8"/>
+<text x="160.0" y="220" text-anchor="middle" font-size="13" font-weight="bold" fill="#1F2937">LayerNorm</text>
+<rect x="250" y="200" width="190" height="56" rx="9" fill="#F1F3F4" stroke="#7A8791" stroke-width="1.8"/>
+<text x="345.0" y="220" text-anchor="middle" font-size="13" font-weight="bold" fill="#1F2937">Causal multi-head</text>
+<text x="345.0" y="237" text-anchor="middle" font-size="13" fill="#1F2937">self-attention</text>
+<rect x="470" y="200" width="120" height="39" rx="9" fill="#F1F3F4" stroke="#7A8791" stroke-width="1.8"/>
+<text x="530.0" y="220" text-anchor="middle" font-size="13" font-weight="bold" fill="#1F2937">LayerNorm</text>
+<rect x="620" y="200" width="140" height="39" rx="9" fill="#F1F3F4" stroke="#7A8791" stroke-width="1.8"/>
+<text x="690.0" y="220" text-anchor="middle" font-size="13" font-weight="bold" fill="#1F2937">MLP with GELU</text>
+<rect x="40" y="310" width="390" height="73" rx="9" fill="#F1F3F4" stroke="#7A8791" stroke-width="1.8"/>
+<text x="235.0" y="330" text-anchor="middle" font-size="13" font-weight="bold" fill="#1F2937">Training</text>
+<text x="235.0" y="347" text-anchor="middle" font-size="13" fill="#1F2937">label-smoothed cross-entropy, AdamW, weight decay 0.1,</text>
+<text x="235.0" y="364" text-anchor="middle" font-size="13" fill="#1F2937">gradient clipping 1.0</text>
+<rect x="450" y="310" width="390" height="73" rx="9" fill="#FDF1DC" stroke="#C98A1B" stroke-width="1.8"/>
+<text x="645.0" y="330" text-anchor="middle" font-size="13" font-weight="bold" fill="#1F2937">Generation</text>
+<text x="645.0" y="347" text-anchor="middle" font-size="13" fill="#1F2937">sample the next token at temperature 0.5 / 1.0 / 1.5,</text>
+<text x="645.0" y="364" text-anchor="middle" font-size="13" fill="#1F2937">append it to the context and repeat</text>
+<text x="345" y="185" text-anchor="start" font-size="13" fill="#444">Inside each block</text>
+<text x="430" y="285" text-anchor="middle" font-size="12" font-style="italic" fill="#444">A residual connection wraps the attention and MLP sub-layers. Dropout and stochastic layer dropping regularise training.</text>
+</svg>

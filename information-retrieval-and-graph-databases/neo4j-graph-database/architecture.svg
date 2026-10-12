@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1060 480" width="1060" height="480" font-family="Helvetica, Arial, sans-serif">
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#555"/></marker></defs>
+<rect width="1060" height="480" fill="#ffffff"/>
+<text x="530.0" y="30" text-anchor="middle" font-size="18" font-weight="bold" fill="#1F2937">Neo4j news graph: from raw XML to connected queries</text>
+<polyline points="160.0,88.0 180.0,88.0 180.0,96.5 200.0,96.5" fill="none" stroke="#555" stroke-width="1.6" marker-end="url(#ar)"/>
+<polyline points="450.0,96.5 490.0,96.5" fill="none" stroke="#555" stroke-width="1.6" marker-end="url(#ar)"/>
+<polyline points="650.0,96.5 670.0,96.5 670.0,88.0 690.0,88.0" fill="none" stroke="#555" stroke-width="1.6" marker-end="url(#ar)"/>
+<polyline points="870.0,88.0 890.0,88.0 890.0,96.5 910.0,96.5" fill="none" stroke="#555" stroke-width="1.6" marker-end="url(#ar)"/>
+<polyline points="80.0,340.0 80.0,297.0 530.0,297.0 530.0,254.0" fill="none" stroke="#555" stroke-width="1.6" marker-end="url(#ar)"/>
+<polyline points="530.0,254.0 530.0,297.0 230.0,297.0 230.0,340.0" fill="none" stroke="#555" stroke-width="1.6" marker-end="url(#ar)"/>
+<polyline points="530.0,254.0 530.0,297.0 380.0,297.0 380.0,340.0" fill="none" stroke="#555" stroke-width="1.6" marker-end="url(#ar)"/>
+<polyline points="530.0,254.0 530.0,297.0 530.0,297.0 530.0,340.0" fill="none" stroke="#555" stroke-width="1.6" marker-end="url(#ar)"/>
+<polyline points="530.0,254.0 530.0,297.0 680.0,297.0 680.0,340.0" fill="none" stroke="#555" stroke-width="1.6" marker-end="url(#ar)"/>
+<polyline points="530.0,254.0 530.0,297.0 830.0,297.0 830.0,340.0" fill="none" stroke="#555" stroke-width="1.6" marker-end="url(#ar)"/>
+<polyline points="530.0,254.0 530.0,297.0 980.0,297.0 980.0,340.0" fill="none" stroke="#555" stroke-width="1.6" marker-end="url(#ar)"/>
+<rect x="20" y="60" width="140" height="56" rx="9" fill="#E8F0FE" stroke="#4C78C9" stroke-width="1.8"/>
+<text x="90.0" y="80" text-anchor="middle" font-size="13" font-weight="bold" fill="#1F2937">Raw WSJ</text>
+<text x="90.0" y="97" text-anchor="middle" font-size="13" fill="#1F2937">XML file</text>
+<rect x="200" y="60" width="250" height="73" rx="9" fill="#F1F3F4" stroke="#7A8791" stroke-width="1.8"/>
+<text x="325.0" y="80" text-anchor="middle" font-size="13" font-weight="bold" fill="#1F2937">R cleaning pipeline</text>
+<text x="325.0" y="97" text-anchor="middle" font-size="13" fill="#1F2937">fix ampersands, strip control</text>
+<text x="325.0" y="114" text-anchor="middle" font-size="13" fill="#1F2937">characters, add root, check tags</text>
+<rect x="490" y="60" width="160" height="73" rx="9" fill="#F1F3F4" stroke="#7A8791" stroke-width="1.8"/>
+<text x="570.0" y="80" text-anchor="middle" font-size="13" font-weight="bold" fill="#1F2937">Node and</text>
+<text x="570.0" y="97" text-anchor="middle" font-size="13" fill="#1F2937">relationship</text>
+<text x="570.0" y="114" text-anchor="middle" font-size="13" fill="#1F2937">CSV files</text>
+<rect x="690" y="60" width="180" height="56" rx="9" fill="#E3F4EF" stroke="#2E8B77" stroke-width="1.8"/>
+<text x="780.0" y="80" text-anchor="middle" font-size="13" font-weight="bold" fill="#1F2937">Cypher MERGE load</text>
+<text x="780.0" y="97" text-anchor="middle" font-size="13" fill="#1F2937">node-key constraints</text>
+<rect x="910" y="60" width="130" height="73" rx="9" fill="#FDF1DC" stroke="#C98A1B" stroke-width="1.8"/>
+<text x="975.0" y="80" text-anchor="middle" font-size="13" font-weight="bold" fill="#1F2937">Neo4j Aura</text>
+<text x="975.0" y="97" text-anchor="middle" font-size="13" fill="#1F2937">185,741 nodes</text>
+<text x="975.0" y="114" text-anchor="middle" font-size="13" fill="#1F2937">503,228 links</text>
+<rect x="450" y="215" width="160" height="39" rx="9" fill="#E3F4EF" stroke="#2E8B77" stroke-width="1.8"/>
+<text x="530.0" y="235" text-anchor="middle" font-size="13" font-weight="bold" fill="#1F2937">Article</text>
+<rect x="10" y="340" width="140" height="56" rx="9" fill="#E8F0FE" stroke="#4C78C9" stroke-width="1.8"/>
+<text x="80.0" y="360" text-anchor="middle" font-size="13" font-weight="bold" fill="#1F2937">Author</text>
+<text x="80.0" y="377" text-anchor="middle" font-size="11" fill="#1F2937">WROTE</text>
+<rect x="160" y="340" width="140" height="56" rx="9" fill="#E8F0FE" stroke="#4C78C9" stroke-width="1.8"/>
+<text x="230.0" y="360" text-anchor="middle" font-size="13" font-weight="bold" fill="#1F2937">Company</text>
+<text x="230.0" y="377" text-anchor="middle" font-size="11" fill="#1F2937">MENTIONS_COMPANY</text>
+<rect x="310" y="340" width="140" height="56" rx="9" fill="#E8F0FE" stroke="#4C78C9" stroke-width="1.8"/>
+<text x="380.0" y="360" text-anchor="middle" font-size="13" font-weight="bold" fill="#1F2937">GovtBody</text>
+<text x="380.0" y="377" text-anchor="middle" font-size="11" fill="#1F2937">MENTIONS_GOVT_BODY</text>
+<rect x="460" y="340" width="140" height="56" rx="9" fill="#E8F0FE" stroke="#4C78C9" stroke-width="1.8"/>
+<text x="530.0" y="360" text-anchor="middle" font-size="13" font-weight="bold" fill="#1F2937">Region</text>
+<text x="530.0" y="377" text-anchor="middle" font-size="11" fill="#1F2937">TAGGED_REGION</text>
+<rect x="610" y="340" width="140" height="56" rx="9" fill="#E8F0FE" stroke="#4C78C9" stroke-width="1.8"/>
+<text x="680.0" y="360" text-anchor="middle" font-size="13" font-weight="bold" fill="#1F2937">Sector</text>
+<text x="680.0" y="377" text-anchor="middle" font-size="11" fill="#1F2937">TAGGED_SECTOR</text>
+<rect x="760" y="340" width="140" height="56" rx="9" fill="#E8F0FE" stroke="#4C78C9" stroke-width="1.8"/>
+<text x="830.0" y="360" text-anchor="middle" font-size="13" font-weight="bold" fill="#1F2937">Subject</text>
+<text x="830.0" y="377" text-anchor="middle" font-size="11" fill="#1F2937">TAGGED_SUBJECT</text>
+<rect x="910" y="340" width="140" height="56" rx="9" fill="#E8F0FE" stroke="#4C78C9" stroke-width="1.8"/>
+<text x="980.0" y="360" text-anchor="middle" font-size="13" font-weight="bold" fill="#1F2937">Industry</text>
+<text x="980.0" y="377" text-anchor="middle" font-size="11" fill="#1F2937">TAGGED_INDUSTRY</text>
+<text x="530" y="190" text-anchor="middle" font-size="14" fill="#444">Graph model: 8 node labels, 7 relationship types</text>
+<text x="530" y="455" text-anchor="middle" font-size="11" font-style="italic" fill="#444">Example: companies most often mentioned in articles tagged to a region follows Article to Company and Article to Region.</text>
+</svg>

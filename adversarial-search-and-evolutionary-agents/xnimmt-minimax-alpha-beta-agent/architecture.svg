@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 380" width="960" height="380" font-family="Helvetica, Arial, sans-serif">
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#555"/></marker></defs>
+<rect width="960" height="380" fill="#ffffff"/>
+<text x="480.0" y="30" text-anchor="middle" font-size="18" font-weight="bold" fill="#1F2937">XNimmt agent: sampled minimax with alpha-beta pruning</text>
+<polyline points="150.0,96.5 178.0,96.5" fill="none" stroke="#555" stroke-width="1.6" marker-end="url(#ar)"/>
+<polyline points="328.0,96.5 356.0,96.5" fill="none" stroke="#555" stroke-width="1.6" marker-end="url(#ar)"/>
+<polyline points="516.0,96.5 544.0,96.5" fill="none" stroke="#555" stroke-width="1.6" marker-end="url(#ar)"/>
+<polyline points="734.0,96.5 762.0,96.5" fill="none" stroke="#555" stroke-width="1.6" marker-end="url(#ar)"/>
+<polyline points="851.0,133.0 851.0,220.0" fill="none" stroke="#555" stroke-width="1.6" marker-end="url(#ar)"/>
+<polyline points="639.0,133.0 639.0,220.0" fill="none" stroke="#555" stroke-width="1.6" marker-end="url(#ar)"/>
+<rect x="20" y="60" width="130" height="73" rx="9" fill="#E8F0FE" stroke="#4C78C9" stroke-width="1.8"/>
+<text x="85.0" y="80" text-anchor="middle" font-size="13" font-weight="bold" fill="#1F2937">Game state</text>
+<text x="85.0" y="97" text-anchor="middle" font-size="13" fill="#1F2937">table rows,</text>
+<text x="85.0" y="114" text-anchor="middle" font-size="13" fill="#1F2937">my hand</text>
+<rect x="178" y="60" width="150" height="73" rx="9" fill="#F1F3F4" stroke="#7A8791" stroke-width="1.8"/>
+<text x="253.0" y="80" text-anchor="middle" font-size="13" font-weight="bold" fill="#1F2937">Card tracking</text>
+<text x="253.0" y="97" text-anchor="middle" font-size="13" fill="#1F2937">which cards are</text>
+<text x="253.0" y="114" text-anchor="middle" font-size="13" fill="#1F2937">still unseen</text>
+<rect x="356" y="60" width="160" height="73" rx="9" fill="#F1F3F4" stroke="#7A8791" stroke-width="1.8"/>
+<text x="436.0" y="80" text-anchor="middle" font-size="13" font-weight="bold" fill="#1F2937">Guess opponent hand</text>
+<text x="436.0" y="97" text-anchor="middle" font-size="13" fill="#1F2937">5 random hands from</text>
+<text x="436.0" y="114" text-anchor="middle" font-size="13" fill="#1F2937">the unseen cards</text>
+<rect x="544" y="60" width="190" height="73" rx="9" fill="#E3F4EF" stroke="#2E8B77" stroke-width="1.8"/>
+<text x="639.0" y="80" text-anchor="middle" font-size="13" font-weight="bold" fill="#1F2937">Minimax search</text>
+<text x="639.0" y="97" text-anchor="middle" font-size="13" fill="#1F2937">depth 7 per guess,</text>
+<text x="639.0" y="114" text-anchor="middle" font-size="13" fill="#1F2937">alpha-beta pruning</text>
+<rect x="762" y="60" width="178" height="73" rx="9" fill="#E3F4EF" stroke="#2E8B77" stroke-width="1.8"/>
+<text x="851.0" y="80" text-anchor="middle" font-size="13" font-weight="bold" fill="#1F2937">Vote</text>
+<text x="851.0" y="97" text-anchor="middle" font-size="13" fill="#1F2937">card chosen most</text>
+<text x="851.0" y="114" text-anchor="middle" font-size="13" fill="#1F2937">often across guesses</text>
+<rect x="762" y="220" width="178" height="39" rx="9" fill="#FDF1DC" stroke="#C98A1B" stroke-width="1.8"/>
+<text x="851.0" y="240" text-anchor="middle" font-size="13" font-weight="bold" fill="#1F2937">Card played</text>
+<rect x="544" y="220" width="190" height="73" rx="9" fill="#F1F3F4" stroke="#7A8791" stroke-width="1.8"/>
+<text x="639.0" y="240" text-anchor="middle" font-size="13" font-weight="bold" fill="#1F2937">Pruning skips branches</text>
+<text x="639.0" y="257" text-anchor="middle" font-size="13" fill="#1F2937">that cannot change</text>
+<text x="639.0" y="274" text-anchor="middle" font-size="13" fill="#1F2937">the best choice</text>
+<text x="20" y="330" text-anchor="start" font-size="12" font-style="italic" fill="#444">28 depth and width settings were compared against the 5-minute limit. The chosen setting scored about 1.5× a random agent.</text>
+</svg>

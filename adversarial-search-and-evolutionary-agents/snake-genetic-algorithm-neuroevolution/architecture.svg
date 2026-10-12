@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 440" width="960" height="440" font-family="Helvetica, Arial, sans-serif">
+<defs><marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#555"/></marker></defs>
+<rect width="960" height="440" fill="#ffffff"/>
+<text x="480.0" y="30" text-anchor="middle" font-size="18" font-weight="bold" fill="#1F2937">Snake agent: a neural network evolved by a genetic algorithm</text>
+<polyline points="190.0,96.5 220.0,96.5" fill="none" stroke="#555" stroke-width="1.6" marker-end="url(#ar)"/>
+<polyline points="370.0,96.5 400.0,96.5" fill="none" stroke="#555" stroke-width="1.6" marker-end="url(#ar)"/>
+<polyline points="600.0,96.5 630.0,96.5" fill="none" stroke="#555" stroke-width="1.6" marker-end="url(#ar)"/>
+<polyline points="770.0,96.5 785.0,96.5 785.0,88.0 800.0,88.0" fill="none" stroke="#555" stroke-width="1.6" marker-end="url(#ar)"/>
+<polyline points="870.0,116.0 870.0,161.0 105.0,161.0 105.0,133.0" fill="none" stroke="#555" stroke-width="1.6" marker-end="url(#ar)"/>
+<text x="487.5" y="175.0" text-anchor="middle" font-size="11" fill="#555">next generation (up to 500)</text>
+<polyline points="390.0,278.0 430.0,278.0" fill="none" stroke="#555" stroke-width="1.6" marker-end="url(#ar)"/>
+<polyline points="600.0,278.0 640.0,278.0" fill="none" stroke="#555" stroke-width="1.6" marker-end="url(#ar)"/>
+<polyline points="295.0,133.0 295.0,191.5 305.0,191.5 305.0,250.0" fill="none" stroke="#555" stroke-width="1.6" marker-end="url(#ar)"/>
+<text x="300.0" y="191.5" text-anchor="start" font-size="11" fill="#555">each turn</text>
+<rect x="20" y="60" width="170" height="73" rx="9" fill="#E8F0FE" stroke="#4C78C9" stroke-width="1.8"/>
+<text x="105.0" y="80" text-anchor="middle" font-size="13" font-weight="bold" fill="#1F2937">Population</text>
+<text x="105.0" y="97" text-anchor="middle" font-size="13" fill="#1F2937">40 snakes, each an</text>
+<text x="105.0" y="114" text-anchor="middle" font-size="13" fill="#1F2937">813-gene chromosome</text>
+<rect x="220" y="60" width="150" height="73" rx="9" fill="#F1F3F4" stroke="#7A8791" stroke-width="1.8"/>
+<text x="295.0" y="80" text-anchor="middle" font-size="13" font-weight="bold" fill="#1F2937">Play a game</text>
+<text x="295.0" y="97" text-anchor="middle" font-size="13" fill="#1F2937">100 turns on</text>
+<text x="295.0" y="114" text-anchor="middle" font-size="13" fill="#1F2937">a 50×50 grid</text>
+<rect x="400" y="60" width="200" height="73" rx="9" fill="#F1F3F4" stroke="#7A8791" stroke-width="1.8"/>
+<text x="500.0" y="80" text-anchor="middle" font-size="13" font-weight="bold" fill="#1F2937">Fitness score</text>
+<text x="500.0" y="97" text-anchor="middle" font-size="13" fill="#1F2937">+ survive, grow, eat, attack</text>
+<text x="500.0" y="114" text-anchor="middle" font-size="13" fill="#1F2937">− crash, friendly bite</text>
+<rect x="630" y="60" width="140" height="73" rx="9" fill="#E3F4EF" stroke="#2E8B77" stroke-width="1.8"/>
+<text x="700.0" y="80" text-anchor="middle" font-size="13" font-weight="bold" fill="#1F2937">Selection</text>
+<text x="700.0" y="97" text-anchor="middle" font-size="13" fill="#1F2937">roulette +</text>
+<text x="700.0" y="114" text-anchor="middle" font-size="13" fill="#1F2937">elitism (6)</text>
+<rect x="800" y="60" width="140" height="56" rx="9" fill="#E3F4EF" stroke="#2E8B77" stroke-width="1.8"/>
+<text x="870.0" y="80" text-anchor="middle" font-size="13" font-weight="bold" fill="#1F2937">Crossover</text>
+<text x="870.0" y="97" text-anchor="middle" font-size="13" fill="#1F2937">+ mutation</text>
+<rect x="220" y="250" width="170" height="56" rx="9" fill="#E8F0FE" stroke="#4C78C9" stroke-width="1.8"/>
+<text x="305.0" y="270" text-anchor="middle" font-size="13" font-weight="bold" fill="#1F2937">7×7 view</text>
+<text x="305.0" y="287" text-anchor="middle" font-size="13" fill="#1F2937">49 percepts</text>
+<rect x="430" y="250" width="170" height="56" rx="9" fill="#E3F4EF" stroke="#2E8B77" stroke-width="1.8"/>
+<text x="515.0" y="270" text-anchor="middle" font-size="13" font-weight="bold" fill="#1F2937">Hidden layer</text>
+<text x="515.0" y="287" text-anchor="middle" font-size="13" fill="#1F2937">15 neurons</text>
+<rect x="640" y="250" width="200" height="56" rx="9" fill="#FDF1DC" stroke="#C98A1B" stroke-width="1.8"/>
+<text x="740.0" y="270" text-anchor="middle" font-size="13" font-weight="bold" fill="#1F2937">Action choice</text>
+<text x="740.0" y="287" text-anchor="middle" font-size="13" fill="#1F2937">left / forward / right</text>
+<text x="330" y="222" text-anchor="start" font-size="13" fill="#444">Inside each snake (the chromosome stores the network weights and biases)</text>
+<text x="480" y="395" text-anchor="middle" font-size="12" font-style="italic" fill="#444">No labelled examples exist. Better snakes survive selection and pass their genes on.</text>
+</svg>
